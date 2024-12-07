@@ -22,10 +22,10 @@ API_ID = int(environ.get('API_ID', '1923471'))
 API_HASH = environ.get('API_HASH', 'fcdc178451cd234e63faefd38895c991')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '880087645').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5079629749').split()]
 USERNAME = environ.get('USERNAME', 'https://telegram.me/JAsuran2p0')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001517345433'))
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001188070894 -100169224324 -1002461730224 -1002223699552 -1002397109795 -1001775437494 -1001685364040 -1001274359769').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://unknown4u1082:unknown4u1082@cluster0.hpvim.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://unknown4u1082:unknown4u1082@cluster0.hpvim.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
