@@ -20,35 +20,35 @@ def is_enabled(value, default):
 #main variables
 API_ID = int(environ.get('API_ID', '1923471'))
 API_HASH = environ.get('API_HASH', 'fcdc178451cd234e63faefd38895c991')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6023399726:AAH0hkqGnwGnUX0-DFQ4CXF_7gihNI2SsTo")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '880087645').split()]
 USERNAME = environ.get('USERNAME', 'https://telegram.me/JAsuran2p0')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001966055101'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001517345433'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001188070894 -100169224324 -1002461730224 -1002223699552 -1002397109795 -1001775437494 -1001685364040 -1001274359769').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://video:video@cluster0.gp0rn.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://video:video@cluster0.gp0rn.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "asuranj")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AutofilterBot')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001966055101'))
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://unknown4u1082:unknown4u1082@cluster0.hpvim.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://unknown4u1082:unknown4u1082@cluster0.hpvim.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TELEGRAM_FILES')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001517345433'))
 QR_CODE = environ.get('QR_CODE', 'https://envs.sh/Cps.jpg')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001966055101'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001517345433'))
 URL = environ.get('URL', '')
 
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001966055101'))
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/demoshort")
-TUTORIAL2 = environ.get("TUTORIAL2", "https://t.me/demoshort")
-TUTORIAL3 = environ.get("TUTORIAL3", "https://t.me/demoshort")
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001517345433'))
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/ARY_BOTZ")
+TUTORIAL2 = environ.get("TUTORIAL2", "https://t.me/ARY_BOTZ")
+TUTORIAL3 = environ.get("TUTORIAL3", "https://t.me/ARY_BOTZ")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://envs.sh/Cpl.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "e5a0df550303e31db72c8924e40e706976a2adb2")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "Modijiurl.com")
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
+SHORTENER_API = environ.get("SHORTENER_API", "32e64da57c0f5b3a3609c7da1b6e8ee1a43266a5")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "instantearn.in")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "dc5e9a2e8582dda079e593d7763d0180a8608b09")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "instantearn.in")
 SHORTENER_API3 = environ.get("SHORTENER_API3", "")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "3600"))
@@ -57,9 +57,9 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
 # languages search
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
-auth_channel = environ.get('AUTH_CHANNEL', '-1002092476960')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001756081670')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1004658349340'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', ''))
 
 # bot settings
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
