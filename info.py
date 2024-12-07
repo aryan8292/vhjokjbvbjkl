@@ -23,7 +23,7 @@ API_HASH = environ.get('API_HASH', 'fcdc178451cd234e63faefd38895c991')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5079629749').split()]
-USERNAME = environ.get('USERNAME', 'https://telegram.me/JAsuran2p0')
+USERNAME = environ.get('USERNAME', 'https://telegram.me/panditxg')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001517345433'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://unknown4u1082:unknown4u1082@cluster0.hpvim.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
