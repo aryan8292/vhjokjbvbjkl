@@ -31,7 +31,7 @@ DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://unknown4u1082:N6qSsb
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TELEGRAM_FILES')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001517345433'))
-QR_CODE = environ.get('QR_CODE', 'https://envs.sh/Cps.jpg')
+QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/63f78472ec9d5757b9a14.jpg')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
